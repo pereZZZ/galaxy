@@ -1,0 +1,327 @@
+body{
+    background: url("../images/galaxy.jpg") no-repeat;
+    width: 1024px;
+    height: 1024px;
+    background-size:cover;
+}
+.galaxy{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+    top: 176px;
+    left: -124px;
+}
+.sun{
+    background: url("../images/sun.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    animation: 4s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: sun1;
+    position: absolute;
+    top:200px;
+    left: 600px;
+}
+.planet1{
+    background: url("../images/planet1.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet11;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet2{
+    background: url("../images/planet2.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet2;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet3{
+    background: url("../images/planet3.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet3;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet4{
+    background: url("../images/planet4.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet4;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet5{
+    background: url("../images/planet5.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet5;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet6{
+    background: url("../images/planet6.png");
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet6;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet7{
+    background: url("../images/planet7.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet7;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.moon{
+    background: url("../images/moon.png");
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    animation: 2s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: moon;
+    position: relative;
+    top: 100%;
+    left: 100%;
+
+}
+.planet1o{
+ position: absolute;
+    top: 242px;
+    left: 643px;
+    width:40px;
+    height: 40px;
+    animation: 0.58s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet1o;
+    transform-origin: 0% 0%;
+}
+.planet2o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:70px;
+    height: 70px;
+    animation: 2.43s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet2o;
+    transform-origin: 0% 0%;
+}
+.planet3o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:110px;
+    height: 110px;
+    animation: 3.50s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet3o;
+    transform-origin: 0% 0%;
+}
+.planet4o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:150px;
+    height: 150px;
+    animation: 6.87s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet4o;
+    transform-origin: 0% 0%;
+}
+.planet5o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:180px;
+    height: 180px;
+    animation: 3.98s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet5o;
+    transform-origin: 0% 0%;
+}
+.planet6o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:220px;
+    height: 220px;
+    animation: 3.78s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet6o;
+    transform-origin: 0% 0%;
+}
+.planet7o{
+    position: absolute;
+    top: 242px;
+    left: 643px;
+
+    width:260px;
+    height: 260px;
+    animation: 3.69s infinite cubic-bezier(0.01, 0, 1, 1.01);
+    animation-name: planet7o;
+    transform-origin: 0% 0%;
+}
+
+@keyframes planet11 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes sun1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet2 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet3 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet4 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet5 {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet6 {
+     from{
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
+@keyframes planet7 {
+     from{
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
+@keyframes moon {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet1o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet2o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet3o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet4o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet5o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet6o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes planet7o {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
